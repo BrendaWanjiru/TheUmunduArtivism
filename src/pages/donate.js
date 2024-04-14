@@ -8,7 +8,7 @@ export default function donate() {
 </div>
 <div class="grid grid-cols-6 gap-4">
   <div class="col-start-2 col-span-4">
-    <h2 className=' my-8'>Your donation isn't just a contribution; it's a lifeline. Thank you for believing in us.</h2>
+    <h2 className=' my-8'>Your donation isn&apos;t just a contribution; it&apos;s a lifeline. Thank you for believing in us.</h2>
     </div>
     </div>
     </section>
