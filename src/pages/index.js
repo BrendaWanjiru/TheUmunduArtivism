@@ -115,15 +115,15 @@ export default function Home() {
           </div>
         </div>
 <div className="text-center text-[#dd9445] bg-orange-900 w-full h-96">
-<h1 className=" py-4 text-base font-sans font-thin">"The smallest act of kindness is worth more than the grandest intention"</h1>
+<h1 className=" py-4 text-base font-sans font-thin">&#39;&#39;The smallest act of kindness is worth more than the grandest intention&#39;&#39;</h1>
 
         <div class="grid grid-cols-4 gap-4 w-full h-full place-content-center ">
         
           <div class="col-start-2 col-span-2 flex flex-col w-full h-full justify-center">
           <h2 className=" text-3xl">Get Involved __</h2>
             <div className="p-4 w-full h-full flex justify-center gap-4">
-            <Link href={''} className=" bg-[#dd9445] p-4 w-fit my-4 text-white text-center border rounded-3xl">Donate</Link>
-            <Link href={''} className=" bg-[#dd9445] p-4 w-fit my-4 text-white border  rounded-3xl">Maybe Later</Link>
+            <Link href={'/donate'} className=" bg-[#dd9445] p-4 w-fit my-4 text-white text-center border hover:scale-125 transition duration-1000">Donate</Link>
+            <Link href={'/donate'} className=" bg-[#dd9445] p-4 w-fit my-4 text-white border hover:scale-125 transition duration-1000">Maybe Later</Link>
             </div>
           </div>
           <div className=" col-start-3 col-span-2 "></div>
