@@ -2,6 +2,8 @@ import React from 'react'
 import styles from '@/styles/courasel.module.css';
 import Head from 'next/head';
 import Image from 'next/image';
+import lyn from '../../public/images/lyn.jpg';
+
 
 export default function about() {
   return (
@@ -99,7 +101,7 @@ export default function about() {
     </h1>
     <Image priority alt='lynnet'
       class="float-left h-56 w-64 rounded-full mx-10 sm:mx-4 shadow-xl my-4 transform transition-transform duration-300 ease-in-out hover:scale-110"
-      src="https://www.theumunduartivism.org/images/rie.jpg"
+      src={lyn}
     />
     <h3 className=" text-[#dd9445] font-semibold text-xl">Lynnet Njeru</h3>
     <p className=" font-normal text-lg lg:text-base p-4">

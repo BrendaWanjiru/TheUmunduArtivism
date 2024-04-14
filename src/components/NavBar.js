@@ -110,6 +110,7 @@ export default function NavBar() {
           <CustomLink href="/" title="Home" className="mx-4" />
           <CustomLink href="/blog" title="Blog" className="mx-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
+          <CustomLink href="/donate" title="DONATE" className="mx-4 bg-[#dd9445] p-4 text-white hover:text-black transition duration-1000 text-lg" />
         </nav>
 
        
@@ -127,7 +128,8 @@ export default function NavBar() {
         <nav className=" flex flex-col justify-center gap-3 my-3" >
           <CustomMobileLink href="/"  title="Home" className="" toggle={handleClick}/>
           <CustomMobileLink href="/blog"  title="Blog" className="" toggle={handleClick} />
-          <CustomMobileLink href="/about"  title="Programs" className="" toggle={handleClick} />
+          <CustomMobileLink href="/about"  title="About" className="" toggle={handleClick} />
+          <CustomMobileLink href="/donate"  title="Donate"  className="mx-4 bg-[#dd9445] p-4 text-white hover:text-black transition duration-1000 text-lg"  toggle={handleClick} />
         </nav>
 
       

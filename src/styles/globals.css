@@ -7,3 +7,8 @@
     height: 100vh;
     width: 100vw;
   }
+  .donate{
+    background-image: url('../../public/images/tissue.jpeg');
+    height: 50vh;
+    width: full;
+  }
