@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import b1 from '../../public/images/shade.jpg';
 import b2 from '../../public/images/umundu_train.jpeg';
 import ua from '../../public/images/ocha.jpeg';
 import styles from '@/styles/courasel.module.css';
-import Image from 'next/image'
+import Image from 'next/image';
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    b1,
     b2,
-    ua
+    ua,
   ];
 
   useEffect(() => {
