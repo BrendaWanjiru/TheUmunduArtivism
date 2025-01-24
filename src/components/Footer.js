@@ -104,7 +104,7 @@ export default function Footer() {
       <div className="grid grid-cols-6 gap-4">
       <div class="col-start-2 col-span-4 text-black text-center">
         <hr className="h-px bg-gray-200 border-0 dark:bg-gray-700"/>
-        <span>All rights reserved - Made with &#9829; by &#9824;Maestro</span>
+        <span>All rights reserved @The Umundu Artivism</span>
       </div>
 
       </div>
