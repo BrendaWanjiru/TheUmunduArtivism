@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import b1 from '../../public/images/shade.jpg';
 import b2 from '../../public/images/umundu_train.jpeg';
 import ua from '../../public/images/ocha.jpeg';
 import styles from '@/styles/courasel.module.css';
