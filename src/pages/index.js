@@ -17,6 +17,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {/* Construction Notice */}
+      <section className="w-full bg-yellow-200 text-black text-center py-4">
+        <p className="text-lg font-semibold">
+          🚧 Website is still under construction. Some features may not be available. 🚧
+        </p>
+      </section>
+
       <section className="w-screen h-full bg-white text-black">
         <div className="w-full flex justify-center sm:hidden xs:hidden"></div>
 
