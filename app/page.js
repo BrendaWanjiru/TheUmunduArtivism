@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import MissionVision from "../components/MissionVision";
+import Action from "../components/Action";
 import Impact from "../components/Impact";
 import TalentSearch from "../components/TalentSearch";
 import Partners from "../components/Partners";
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero />
       <About />
       <MissionVision />
+      <Action/>
       <Impact />
       <TalentSearch />
       <Partners />

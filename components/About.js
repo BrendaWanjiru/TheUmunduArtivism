@@ -33,10 +33,11 @@ export default function AboutPreview() {
             About Us
           </h2>
           <p className="text-lg text-[#3E2723] leading-relaxed mb-6">
-            At Umundu Artivism, we use art, storytelling, and collective action
-            to **inspire change**. Our work empowers communities, amplifies
-            marginalized voices, and builds sustainable solutions through
-            creativity and collaboration.
+            Founded on the belief that creativity can drive meaningful change, The Umundu Artivism merges art, advocacy, and innovation to address pressing social issues.
+
+Our programs use stage plays, short films, spoken word, and community art projects to raise awareness on topics such as period poverty, reproductive health, and social justice. Beyond art, we’ve established a Digital Hub—a safe space where youth learn marketable digital skills, discover their creative potential, and build sustainable livelihoods.
+
+Over time, we’ve witnessed how our artistic and digital initiatives have become more than platforms for expression—they’ve become spaces of healing, belonging, and mental wellness for the youth we serve.
           </p>
           <Link
             href="/about"
